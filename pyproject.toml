@@ -5,7 +5,7 @@ description = "Algorithms implemented in python, in a functional style and using
 authors = ["Vinicius Miradouro <miradouro.v@gmail.com>"]
 license = "GPL-3"
 readme = "README.md"
-packages = [{include = "functional_python_algorithms"}]
+packages = [{ include = "functional_python_algorithms" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -14,3 +14,6 @@ python = "^3.11"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
