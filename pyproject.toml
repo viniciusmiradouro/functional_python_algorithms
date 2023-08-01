@@ -9,6 +9,8 @@ packages = [{ include = "functional_python_algorithms" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fn-py = "^0.6.0"
+toolz = "^0.12.0"
 
 
 [build-system]
